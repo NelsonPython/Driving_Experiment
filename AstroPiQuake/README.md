@@ -1,9 +1,9 @@
-AstroPiQuake
+<h1>Configure AstroPiQuake</h1>
 
-Make a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.
+Make a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
 
-
-<h2>sensorTosocket</h2>
+<h2>sensorTosocket.py</h2>
+This script gets sensor readings and sends them to the Public Radio announcer.  It also draws emojis in different colors depending on the temperature and humidity readings.
 
 ```
 #!/usr/bin/python
@@ -142,6 +142,7 @@ if __name__ == '__main__':
 ```
 
 <h2>emoji.py</h2>
+This script listens for messages from Public Radio and draws emojis on the LEDs
 
 ```
 #!/usr/bin/python
