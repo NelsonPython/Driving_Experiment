@@ -9,8 +9,8 @@ import pandas as pd
 # setup database connection and cursor
 mydb = mysql.connector.connect(
 	host = "localhost",
-	user = "py",
-	passwd = 'admin1234',
+	user = "USERNAME",
+	passwd = 'PASSWORD',
 	database = 'roadtrip'
 )
 mycursor = mydb.cursor()
