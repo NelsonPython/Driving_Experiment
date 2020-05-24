@@ -10,6 +10,7 @@ python3 socketSports.py -i 192.168.1.x
 
 <h2>socketSports</h2>
 
+```
 '''
 Purpose:  drive the demo
 
