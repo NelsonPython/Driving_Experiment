@@ -1,12 +1,15 @@
 <h1>Configure Air MacClean</h1>
 Make a folder in you home directory called /AirQuality and copy airMacClean.py, getIP.py, and textStatus.py.  
 
+
 ```
 python3 airMacClean.py -ip 192.168.1.x -n 10 -t n
 ```
 
 -ip must be the ip address of Public Radio
+
 -n is the number of air quality samples
+
 -t do you want to text the IP address of this device using IFTTT?  y or n
 
 
