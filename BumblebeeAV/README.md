@@ -36,7 +36,7 @@ ap.add_argument("-ip","--ipaddr", required=True,
     help = ("Start webserver virtualBox, get webserver IP address, python3 socketSports.py -ip 192.168.1.x "))
 args = vars(ap.parse_args())
 
-# get the URL for Public Radio
+#get the URL for Public Radio
 getURL = "http://"+args['ipaddr']+"/ai_getIP.php"
 fp = urllib.request.urlopen(getURL)
 host = fp.read()
@@ -45,27 +45,27 @@ fp.close()
 port = 8089
 print("host: ", host,":",port)
 
-# for this beginner tutorial, the listener and socketSports are not multi-threaded
-# messages from the listener are stored in a text file called quake.txt
+#for this beginner tutorial, the listener and socketSports are not multi-threaded
+#messages from the listener are stored in a text file called quake.txt
 with open("quake.txt","w") as fo:
     fo.write("")
 
-# calibrate motors and driving time
+#calibrate motors and driving time
 stopMtrTime = 0.1
 forwardTime = 0.05
 totDriveTime = 90
 
-# set mode and turn off warnings
+#set mode and turn off warnings
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-# setup line followers
+#setup line followers
 driverLine = 21
 passengerLine = 26
 GPIO.setup(driverLine,GPIO.IN)
 GPIO.setup(passengerLine,GPIO.IN)
 
-# setup motors
+#setup motors
 motors.setupGPIO(27,24,5)
 motors.setupGPIO(22,6,17)
 motors.setupGPIO(16,23,12)
@@ -85,7 +85,7 @@ def reportStatus(host,port,task,timestamp,duration,tripLeg):
         print("I lost my connection to", host)
         pass
 
-# get the number of fuel stops from the MOBI data mart
+#get the number of fuel stops from the MOBI data mart
 getFuelStops = "http://"+args['ipaddr']+"/ai_getGPSCoord.php"
 fp = urllib.request.urlopen(getFuelStops)
 gpsBytes = fp.read()
@@ -93,12 +93,12 @@ goal = gpsBytes.decode("utf8").strip("\n")
 fp.close()
 goal = goal.split(",")
 
-# compute number of planned fuel stops
+#compute number of planned fuel stops
 numFuelStops = int(goal[8])
 i = round(totDriveTime/numFuelStops)
 fuelTimes = [i + (x*i) for x in range(numFuelStops)]
 
-# BEGIN TRIP
+#BEGIN TRIP
 departTime = time.time()
 statusTime = str(datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S'))
 reportStatus(host,port,"yellow_depart", statusTime,'0',0)
