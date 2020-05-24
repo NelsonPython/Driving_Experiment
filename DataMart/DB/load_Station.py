@@ -3,8 +3,8 @@ import pandas as pd
 
 mydb = mysql.connector.connect(
         host = "localhost",
-        user = "py",
-        password = "admin1234",
+        user = "USERNAME",
+        password = "PASSWORD",
         database = "roadtrip"
 )
 conn = mydb.cursor()
