@@ -9,6 +9,7 @@ python3 sensorEsocket -ip 192.168.1.x
 -ip must be the ip address of the VirtualBox running Public Radio
 
 <h2>sensorEsocket.py</h2>
+
 ```
 from envirophat import light, motion, weather,leds
 
