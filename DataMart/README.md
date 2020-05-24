@@ -15,7 +15,7 @@ Create your roadtrip database with four tables:
 - labDevices - contains the MAC address, IP address, and device name for each device
 
 <h4>KellyBlueBook Table</h4>
-Use the KellyBlueBook.csv file along with the load_KellyBlueBook.py script to create the KellyBlueBook table
+Use the load_KellyBlueBook.py script to create the KellyBlueBook table
 
 <h4>Station Table</h4>
 Use the station.csv file along with the load_Stations.py script to create the station table
