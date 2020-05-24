@@ -6,6 +6,15 @@ I-5 is an important trade route in the Western USA. Explore making autonomous ve
 
 <h2>Configure the lab</h2>
 
+[AstroPiQuake](AstroPiQuake/README.md)
+
+[Enviro](Enviro/README.md)
+
+[Air MacClean](AirMacClean/README.md)
+
+[Bumblebee AV](BumblebeeAV/README.md)
+
+[Public Radio](PublicRadio/README.md)
 
 
 <h2>Conduct experiments</h2>
