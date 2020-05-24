@@ -2,6 +2,13 @@
 
 Make a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
 
+```
+python3 sensorTosocket.py -ip 192.168.1.x
+```
+
+-ip must be the ip address of Public Radio
+
+
 <h2>sensorTosocket.py</h2>
 This script gets sensor readings and sends them to the Public Radio announcer.  It also draws emojis in different colors depending on the temperature and humidity readings.
 
@@ -145,8 +152,11 @@ if __name__ == '__main__':
 This script listens for messages from Public Radio and draws emojis on the LEDs
 
 ```
-#!/usr/bin/python
+python3 emoji.py
+```
 
+```
+#!/usr/bin/python
 '''
 Purpose: receive data and display emoji on the LEDs
 '''
@@ -352,16 +362,7 @@ while True:
 
     sense.clear()
 
-    if msg == 'kou':
-        kou(red,sense)
-
-    elif msg == 'ri':
-        ri(yellow,sense)
-
-    elif msg == 'mu':
-        mu(blue,sense)
-
-    elif msg == 'charging':
+    if msg == 'charging':
         charging(sense)
 
     elif msg == 'charged':
