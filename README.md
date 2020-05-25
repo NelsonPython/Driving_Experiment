@@ -6,7 +6,7 @@ This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutoria
 
 [Get started](https://github.com/NelsonPython/AI_Lab)
 
-<h2>Configure AI Lab</h2>
+<h2>Configure AI Lab to Drive I-5</h2>
 
 [AstroPiQuake](AstroPiQuake/README.md)
 
