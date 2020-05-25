@@ -1,6 +1,6 @@
 <h1>Configure Enviro</h1>
 
-Copy sensorEsocket.py to your home folder.
+If you have not built your own Enviro, follow these [instructions](https://github.com/NelsonPython/Enviro).  Then, copy sensorEsocket.py to your home folder.
 
 ```
 python3 sensorEsocket -ip 192.168.1.x
