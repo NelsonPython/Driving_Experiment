@@ -14,7 +14,7 @@ This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutoria
 
 [MOBI Data Mart](DataMart/README.md)
 
-After your devices are configured, follow these steps to conduct the experiment:
+After your devices are configured, follow these steps to conduct experiments:
 
 1. Power on all your devices
 
