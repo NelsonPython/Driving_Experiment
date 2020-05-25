@@ -1,4 +1,4 @@
-<h1>Configure AstroPiQuake to Drive I-5</h1>
+<h1>Configuring AstroPiQuake to Drive I-5</h1>
 
 If you have not built your own AstroPiQuake, follow these [instructions](https://github.com/NelsonPython/AstroPiQuake).  Set up the Drive I-5 experiment by making a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
 
