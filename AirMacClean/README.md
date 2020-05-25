@@ -1,4 +1,4 @@
-<h1>Configure Air MacClean</h1>
+<h1>Configuring Air MacClean to Drive I-5</h1>
 
 If you have not built your own Air MacClean, follow these [instructions](https://github.com/NelsonPython/Air_MacClean).  Make a folder in you home directory called /AirQuality and copy airMacClean.py, getIP.py, and textStatus.py.  
 
