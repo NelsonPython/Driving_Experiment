@@ -1,4 +1,4 @@
-<h1>Configure Enviro</h1>
+<h1>Configuring Enviro</h1>
 
 If you have not built your own Enviro, follow these [instructions](https://github.com/NelsonPython/Enviro).  Then, copy sensorEsocket.py to your home folder.
 
