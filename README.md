@@ -1,10 +1,6 @@
 # Drive I-5
 
-This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the AI Lab.  
-
-<h2>Build AI Lab</h2>
-
-[Get started](https://github.com/NelsonPython/AI_Lab)
+This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  To build your own AI Lab, follow these [instructions](https://github.com/NelsonPython/AI_Lab)
 
 <h2>Configure AI Lab to Drive I-5</h2>
 
