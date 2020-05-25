@@ -14,7 +14,7 @@ This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutoria
 
 [MOBI Data Mart](DataMart/README.md)
 
-<h2>Conduct experiments</h2>
+Follow these steps to Drive I-5:
 
 1. Power on all your devices
 
