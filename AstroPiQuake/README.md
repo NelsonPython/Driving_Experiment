@@ -1,4 +1,4 @@
-<h1>Configure AstroPiQuake</h1>
+<h1>Configure AstroPiQuake to Drive I-5</h1>
 
 Make a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
 
