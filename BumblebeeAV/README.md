@@ -1,4 +1,4 @@
-<h1>Configuring the Bumblebee AV to Drivee I-5</h1>
+<h1>Configuring the Bumblebee AV to Drive I-5</h1>
 
 If you have not built your own AstroPiQuake, follow these [instructions](https://github.com/NelsonPython/Bumblebee_AV).  Go to your home directory and make a folder called /bumblebeeav.  Copy socketSports.py, motors.py, and listener.py.  Run socketSports.py and listener.py in different PuTTY sessions.
 
