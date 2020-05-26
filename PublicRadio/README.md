@@ -1,13 +1,23 @@
 <h1>Public Radio</h1>
 
-Public Radio reports messages from AI Lab devices in three languages:  English, Spanish, and Chinese.  It has a limited vocabulary with messages stored in the Translations database.
+Public Radio broadcasts messages in three languages:  English, Spanish, and Chinese.  During a demo, this allows humans to understand their conversations.  In the real world, autonomous vehicles may not speak aloud when communicating with each other because sending and receiving messages is faster and more accurate.  Public Radio uses the translations database.  Open MySQL and create the translations database
 
-<h4>Configure Translations</h4>
+```
+CREATE DATABASE translations;
+```
 
-Create a lookup table that uses a tag to find the proper phrase for each language
+Create the lookup table
 
-<h2>Configure the scripts</h2>
+CREATE TABLE lookup (
+lookup_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+tag varchar(20),
+language varchar(20),
+phrase varchar(100));
+
+
+<h3>Running Public Radio</h3>
 Go to your home directory and make a folder called /PublicRadio.  Copy roadTripTalks.py, send_2_yellow_wheels.py, send_2_AstroPiQuake.py, and quake.sh
 
-<h2>Configure graphs</h2>
+
+<h3>Creating charts and graphs</h3>
 Go to your /PublicRadio folder and copy ??? graphs
