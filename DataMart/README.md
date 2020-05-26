@@ -92,10 +92,10 @@ device  varchar(30));
 <h2>PHP scripts</h2>
 Copy the php scripts and the ai.css file into the /var/www/html folder
 
-<h4>ai_getIP.php</h4>
-
 <h4>ai_addGPSCoord.php</h4>
 
 <h4>ai_getGPSCoord.php</h4>
+
+<h4>ai_getIP.php</h4>
 
 <h4>ai_showMap</h4>
