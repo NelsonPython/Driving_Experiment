@@ -14,20 +14,45 @@ Create your roadtrip database with four tables:
 
 - labDevices - contains the MAC address, IP address, and device name for each device
 
-<h4>KellyBlueBook Table</h4>
-Use the load_KellyBlueBook.py script to create the KellyBlueBook table
+Open MySQL and create the roadtrip database
+
+```
+CREATE DATABASE
+```
+
+Create the KellyBlueBook table
+```
+CREATE TABLE KellyBlueBook >>>
+```
+
+Use the [load_KellyBlueBook.py](DB/load_KellyBlueBook.py) script to insert data
 
 <h4>Station Table</h4>
-Use the station.csv file along with the load_Stations.py script to create the station table
+
+Create the Station table
+
+```
+CREATE TABLE >>>
+```
+Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
+
 
 <h4>Goal Table</h4>
 
+Create the goal table
+```
+CREATE TABLE
+```
 
 <h4>labDevices</h4>
-
+Get the MAC address of each of your devices then create the labDevices table
+```
+CREATE TABLE
+```
 
 <h2>NGINX webserver</h2>
 
+Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04">tutorial</a> to install and configure your NGINX webserver
 
 <h2>Security</h2>
 
