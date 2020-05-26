@@ -2,7 +2,7 @@
 
 <img src="images/MobiDataMart_v2.png">
 
-Copy these php scripts and the ai.css file into your /var/www/html folder: ai_addGPSCoord.php, ai_getGPSCoord.php, ai_getIP.php, ai_showMap
+Copy ai.css, ai_addGPSCoord.php, ai_getGPSCoord.php, ai_getIP.php, ai_showMap into your /var/www/html folder
 
 
 
