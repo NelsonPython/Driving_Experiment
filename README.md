@@ -20,6 +20,12 @@ After your devices are configured, follow these steps to conduct experiments:
 
 2. If you don't have a static IP address for Public Radio, get the current IP address
 
+```
+ip addr
+```
+
+
+
 3. If you don't have static IP addresses for each device, lookup the username and password for each device using their MAC address
 
 ```
