@@ -2,7 +2,7 @@
 
 This is a simple MOBI Data Mart.  You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.  Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">tutorial</a> to install Nginx, MySQL, and PHP on Ubuntu 18.04
 
-<h2>Roadtrip database</h2>
+<h2>Creating the Roadtrip database</h2>
 
 Create your roadtrip database with four tables:
 
@@ -36,9 +36,6 @@ vehicle_website varchar(200));
 
 Use the [load_KellyBlueBook.py](DB/load_KellyBlueBook.py) script to insert data
 
-
-<h4>Station Table</h4>
-
 Create the Station table
 
 ```
@@ -67,8 +64,6 @@ ev_connector_types  varchar(30));
 ```
 Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
 
-<h4>Goal Table</h4>
-
 Create the goal table
 ```
 CREATE TABLE goal (
@@ -83,7 +78,6 @@ DEST_NAME      varchar(40),
 NUM_FUEL_STOPS int(11));
 ```
 
-<h4>labDevices</h4>
 Get the MAC address of each of your devices then create the labDevices table
 
 ```
