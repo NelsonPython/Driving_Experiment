@@ -4,6 +4,8 @@ This is a simple MOBI Data Mart.  You may replace it with any popular data marke
 
 <h2>MySQL database</h2>
 
+Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04">tutorial</a> to install and configure MySQL
+
 Create your roadtrip database with four tables:
 
 - KellyBlueBook - contains vehicle data
