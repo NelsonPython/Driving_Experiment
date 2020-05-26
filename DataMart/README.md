@@ -89,7 +89,30 @@ macaddr varchar(17),
 device  varchar(30));
 ```
 
-Get the IP address and MAC address of your Public Radio, AstroPiQuake, and Bumblebee AV.  Insert your data into the labDevices table using these commands
+Use the ip addr command to get the IP address and MAC address of your Public Radio, AstroPiQuake, and Bumblebee AV
+
+```
+ip addr
+```
+In this example, the ip address is 192.168.1.8 and the mac address is YO:UR:MA:C9:AD:DR
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether YO:UR:MA:C9:AD:DR brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.8/24 brd 192.168.1.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 601665sec preferred_lft 601665sec
+    inet6 fe80::ae56:b667:f535:22cd/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+```
+
+
+Insert your data into the labDevices table
 
 ```
 insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','radio')
