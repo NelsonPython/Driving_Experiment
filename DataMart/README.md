@@ -17,22 +17,36 @@ Create your roadtrip database with four tables:
 Open MySQL and create the roadtrip database
 
 ```
-CREATE DATABASE
+CREATE DATABASE roadtrip;
 ```
 
 Create the KellyBlueBook table
+
 ```
-CREATE TABLE KellyBlueBook >>>
+CREATE TABLE KellyBlueBook (
+    v_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    vehicle varchar(40),
+    vehicle_range in(11),
+    charge_time_240v float(3,1),
+    adapter varchar(30),
+    network_name varchar(40),
+    charge_type varchar(10),
+    vehicle_website varchar(200)
+);
+
 ```
 
 Use the [load_KellyBlueBook.py](DB/load_KellyBlueBook.py) script to insert data
+
 
 <h4>Station Table</h4>
 
 Create the Station table
 
 ```
-CREATE TABLE >>>
+CREATE TABLE Station (
+
+); 
 ```
 Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
 
