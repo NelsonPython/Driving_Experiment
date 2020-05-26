@@ -13,7 +13,7 @@ ai_showMap
 
 <h4>ai_addGPSCoord.php</h4>
 
-<img src="">
+<img src="images/An-4.png">
 
 When you choose a route, ai_addGPSCoord.php saves the GPS coordinates in the goal table
 
