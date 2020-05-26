@@ -1,6 +1,6 @@
 <h1>Creating a simple MOBI Data Mart web app</h1>
 
-Copy ai.css, ai_addGPSCoord.php, ai_getGPSCoord.php, ai_getIP.php, and ai_showMap into your /var/www/html folder
+Copy ai.css, ai_addGPSCoord.php, ai_getGPSCoord.php, ai_getIP.php, and ai_showMap from the PHP folder into your /var/www/html folder
 
 <img src="images/MobiDataMart_v2.png">
 
