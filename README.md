@@ -32,7 +32,7 @@ python3 nmap2mac.py
 python3 emoji.py
 ```
 
-5. Open the BumbleBee AV listener so the AV will respond to messages
+5. Open the BumbleBee AV listener so it can respond to messages such as an earthquake alert
 
 ```
 python3 listener.py
