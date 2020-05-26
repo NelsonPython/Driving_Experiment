@@ -89,7 +89,7 @@ macaddr varchar(17),
 device  varchar(30));
 ```
 
-<h2>Creating the MOBI Data Mart web app</h2>
+<h2>Creating a simple MOBI Data Mart web app</h2>
 
 [Explaining the PHP scripts ](php.md)
 
