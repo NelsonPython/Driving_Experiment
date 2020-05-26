@@ -10,6 +10,8 @@ ai_getIP.php
 
 ai_showMap
 
+<img src="images/MobiDataMart_v2.png">
+
 
 <h4>ai_addGPSCoord.php</h4>
 
@@ -29,6 +31,6 @@ Each device gets the IP address
 
 This script plans the route and shows the scheduled charging stops
 
-<img src="Sac-SanDiego-itinerary.png">
+<img src="images/Sac-SanDiego-itinerary.png">
 
 
