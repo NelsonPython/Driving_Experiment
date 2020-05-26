@@ -29,3 +29,6 @@ Each device gets the IP address
 
 This script plans the route and shows the scheduled charging stops
 
+<img src="Sac-SanDiego-itinerary.png">
+
+
