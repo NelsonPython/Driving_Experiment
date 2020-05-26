@@ -8,12 +8,13 @@ CREATE DATABASE translations;
 
 Create the lookup table
 
+```
 CREATE TABLE lookup (
 lookup_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
 tag varchar(20),
 language varchar(20),
 phrase varchar(100));
-
+```
 
 <h3>Running Public Radio</h3>
 Go to your home directory and make a folder called /PublicRadio.  Copy roadTripTalks.py, send_2_yellow_wheels.py, send_2_AstroPiQuake.py, and quake.sh
