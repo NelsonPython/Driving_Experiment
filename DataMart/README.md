@@ -1,6 +1,6 @@
 <h1>MOBI Data Mart</h1>
 
-This is a simple MOBI Data Mart.  You can replace this simple example with any popular data marketplace that sends messages in json, txt, or csv format.
+This is a simple MOBI Data Mart.  You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.
 
 <h2>MySQL database</h2>
 
