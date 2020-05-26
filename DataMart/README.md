@@ -62,9 +62,9 @@ ev_network          varchar(20),
 ev_pricing          varchar(200),
 ev_connector_types  varchar(30)); 
 ```
-Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
+Copy the station.csv file from the DB folder and run the [load_Stations.py](DB/load_Stations.py) script to insert data
 
-You may copy my station.csv file.  Or you can use the <a href="https://www.kaggle.com/nelsondata/map-ev-charging-stations-on-highway-i-5">Kaggle notebook</a> to create your own station.csv file.
+You can use the <a href="https://www.kaggle.com/nelsondata/map-ev-charging-stations-on-highway-i-5">Kaggle notebook</a> to create your own station.csv file.
 
 
 Create the goal table
