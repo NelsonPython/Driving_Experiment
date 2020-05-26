@@ -112,7 +112,7 @@ In this example, the ip address is 192.168.1.8 and the mac address is YO:UR:MA:C
 ```
 
 
-Insert your data into the labDevices table
+Insert your data into the labDevices table.  Do not change the device tags.  They are used by other programs.
 
 ```
 insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','radio')
