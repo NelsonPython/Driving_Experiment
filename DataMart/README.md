@@ -24,16 +24,14 @@ Create the KellyBlueBook table
 
 ```
 CREATE TABLE KellyBlueBook (
-    v_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    vehicle varchar(40),
-    vehicle_range in(11),
-    charge_time_240v float(3,1),
-    adapter varchar(30),
-    network_name varchar(40),
-    charge_type varchar(10),
-    vehicle_website varchar(200)
-);
-
+v_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+vehicle varchar(40),
+vehicle_range in(11),
+charge_time_240v float(3,1),
+adapter varchar(30),
+network_name varchar(40),
+charge_type varchar(10),
+vehicle_website varchar(200));
 ```
 
 Use the [load_KellyBlueBook.py](DB/load_KellyBlueBook.py) script to insert data
@@ -65,8 +63,7 @@ ev_level_2_evse_num varchar(10),
 ev_dc_fast_count    int(11),
 ev_network          varchar(20),
 ev_pricing          varchar(200),
-ev_connector_types  varchar(30)
-); 
+ev_connector_types  varchar(30)); 
 ```
 Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
 
@@ -75,27 +72,26 @@ Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) sc
 Create the goal table
 ```
 CREATE TABLE goal (
-VEHICLE        | varchar(20) | YES  |     | NULL    |                |
-| ORIGIN_LAT     | varchar(10) | YES  |     | NULL    |                |
-| ORIGIN_LNG     | varchar(10) | YES  |     | NULL    |                |
-| ORIGIN_NAME    | varchar(40) | YES  |     | NULL    |                |
-| DEST_LAT       | varchar(10) | YES  |     | NULL    |                |
-| DEST_LNG       | varchar(10) | YES  |     | NULL    |                |
-| DEST_NAME      | varchar(40) | YES  |     | NULL    |                |
-| GOAL_ID        | int(11)     | NO   | PRI | NULL    | auto_increment |
-| NUM_FUEL_STOPS | int(11)     | YES  |     | NULL    |        
-);
+GOAL_ID  int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+VEHICLE	       varchar(20),
+ORIGIN_LAT     varchar(10),
+ORIGIN_LNG     varchar(10),
+ORIGIN_NAME    varchar(40),
+DEST_LAT       varchar(10),
+DEST_LNG       varchar(10),
+DEST_NAME      varchar(40),
+NUM_FUEL_STOPS int(11));
 ```
 
 <h4>labDevices</h4>
 Get the MAC address of each of your devices then create the labDevices table
+
 ```
 CREATE TABLE labDevices (
-lab_id  | int(11)     | NO   | PRI | NULL    | auto_increment |
-| ipaddr  | varchar(15) | YES  |     | NULL    |                |
-| macaddr | varchar(17) | YES  |     | NULL    |                |
-| device  | varchar(30) | YES  |     | NULL    |  
-);
+lab_id  int(11)  NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ipaddr  varchar(15),
+macaddr varchar(17),
+device  varchar(30));
 ```
 
 <h2>PHP scripts</h2>
