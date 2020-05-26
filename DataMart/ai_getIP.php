@@ -8,7 +8,8 @@
 	    die("Connection failed: " . $conn->connect_error);
 	} 
 
-        $sql = "select ipaddr from labDevices where macaddr = '08:00:27:86:dd:45'";
+        #Enter the MAC address of the computer running the MOBI Data Mart
+        $sql = "select ipaddr from labDevices where macaddr = 'YO:UR:MA:C9:AD:DR'";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
