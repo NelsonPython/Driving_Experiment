@@ -1,8 +1,3 @@
-'''
-using pandas output this threw an error
-using the copy and paste data this works
-unknown error
-'''
 import mysql.connector
 import pandas as pd
 
@@ -50,8 +45,6 @@ val = [('economy', '226', '11.5', 'CHAdeMO J1772', 'DC', 'Chargepoint', \
 ('Tesla Model 3', '310', '11.0', 'unknown', 'unknown', 'unknown', 'unknown'), \
 ('Tesla Model X', '325', '10.0', 'unknown', 'unknown', 'unknown', 'unknown')]
 
-print(sql)
-print(val)
 mycursor.executemany(sql,val)
 mydb.commit()
 print(mycursor.rowcount, " record inserted")
