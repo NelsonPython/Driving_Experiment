@@ -79,7 +79,7 @@ DEST_NAME      varchar(40),
 NUM_FUEL_STOPS int(11));
 ```
 
-Get the MAC address of each of your devices then create the labDevices table
+Create the labDevices table
 
 ```
 CREATE TABLE labDevices (
@@ -88,6 +88,16 @@ ipaddr  varchar(15),
 macaddr varchar(17),
 device  varchar(30));
 ```
+
+Get the IP address and MAC address of your Public Radio, AstroPiQuake, and Bumblebee AV.  Insert your data into the labDevices table using these commands
+
+```
+insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','radio')
+insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','AstroPiQuake')
+insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','bumblebeeav')
+```
+
+
 
 <h2>Creating a simple MOBI Data Mart web app</h2>
 
