@@ -45,23 +45,57 @@ Create the Station table
 
 ```
 CREATE TABLE Station (
-
+s_ID                int(11)  NOT NULL PRIMARY KEY AUTO_INCREMENT,
+station_name        varchar(80),
+station_address     varchar(60),
+station_city        varchar(30),
+station_state       varchar(2),
+zip                 varchar(5),
+zip_plus4           varchar(4),
+lat                 varchar(20),
+lng                 varchar(20),
+date_last_confirmed date,
+access_groups       varchar(35),
+access_days         varchar(250),
+cards_accepted      varchar(30),
+access_code         varchar(10),
+access_detail_code  varchar(20),
+ev_level_1_evse_num varchar(10),
+ev_level_2_evse_num varchar(10),
+ev_dc_fast_count    int(11),
+ev_network          varchar(20),
+ev_pricing          varchar(200),
+ev_connector_types  varchar(30)
 ); 
 ```
 Copy the station.csv file and run the [load_Stations.py](DB/load_Stations.py) script to insert data
-
 
 <h4>Goal Table</h4>
 
 Create the goal table
 ```
-CREATE TABLE
+CREATE TABLE goal (
+VEHICLE        | varchar(20) | YES  |     | NULL    |                |
+| ORIGIN_LAT     | varchar(10) | YES  |     | NULL    |                |
+| ORIGIN_LNG     | varchar(10) | YES  |     | NULL    |                |
+| ORIGIN_NAME    | varchar(40) | YES  |     | NULL    |                |
+| DEST_LAT       | varchar(10) | YES  |     | NULL    |                |
+| DEST_LNG       | varchar(10) | YES  |     | NULL    |                |
+| DEST_NAME      | varchar(40) | YES  |     | NULL    |                |
+| GOAL_ID        | int(11)     | NO   | PRI | NULL    | auto_increment |
+| NUM_FUEL_STOPS | int(11)     | YES  |     | NULL    |        
+);
 ```
 
 <h4>labDevices</h4>
 Get the MAC address of each of your devices then create the labDevices table
 ```
-CREATE TABLE
+CREATE TABLE labDevices (
+lab_id  | int(11)     | NO   | PRI | NULL    | auto_increment |
+| ipaddr  | varchar(15) | YES  |     | NULL    |                |
+| macaddr | varchar(17) | YES  |     | NULL    |                |
+| device  | varchar(30) | YES  |     | NULL    |  
+);
 ```
 
 <h2>PHP scripts</h2>
