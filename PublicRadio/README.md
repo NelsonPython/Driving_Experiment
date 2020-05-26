@@ -1,6 +1,6 @@
 <h1>Public Radio</h1>
 
-Public Radio broadcasts messages in three languages:  English, Spanish, and Chinese.  During a demo, this allows humans to understand their conversations.  In the real world, autonomous vehicles may not speak aloud when communicating with each other because sending and receiving messages is faster and more accurate.  Public Radio uses the translations database.  Open MySQL and create the translations database
+Public Radio broadcasts messages in three languages:  English, Spanish, and Chinese.  During a demo, this allows humans to understand conversations between devices.  In the real world, autonomous vehicles may not speak aloud when communicating with each other because sending and receiving messages is faster and more accurate.  Public Radio uses the translations database.  Open MySQL and create the translations database
 
 ```
 CREATE DATABASE translations;
