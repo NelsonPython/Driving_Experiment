@@ -69,7 +69,7 @@ To simulate an earthquake run quake.sh.
 
 <h3>Creating charts and graphs</h3>
 
-<a href="gph_enviro_temp.md">using Google Charts to monitor temperature</a>
+<a href="gph_enviro_temp.md">Using Google Charts to monitor temperature</a>
 
 
 
