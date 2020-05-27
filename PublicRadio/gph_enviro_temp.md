@@ -1,6 +1,6 @@
 <h3>Using Google Charts to monitor temperature</h3>
 
-<img src="images/enviroTemp.png">
+<img src="images/enviroTemp2.png">
 
 ```
 <!DOCTYPE html>
