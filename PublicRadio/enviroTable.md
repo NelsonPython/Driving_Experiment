@@ -1,4 +1,4 @@
-<h1>Creating an enviro table</h1>
+<h1>Creating the enviro table</h1>
 
 You can save Enviro data in a database table.  Then, you can combine it with other data to create interesting reports.  This simple example shows how to load all the data.  In the real-world, data will be curated.  Use the ai_lab_data database
 
