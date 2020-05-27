@@ -1,4 +1,4 @@
-<h1>Using Google Charts to monitor temperature</h1>
+<h3>Using Google Charts to monitor temperature</h3>
 
 <img src="images/enviroTemp.png">
 
