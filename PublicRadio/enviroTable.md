@@ -116,5 +116,3 @@ mysql> select * from enviro limit 5;
 5 rows in set (0.00 sec)
 ```
 
-
-mysql> 
