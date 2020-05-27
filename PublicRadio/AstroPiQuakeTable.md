@@ -16,44 +16,40 @@ Database changed
 Create the AstroPiQuake table.  Make sure the columns are arranged in the exact same order of the csv file containing data to be loaded.  Do not add a primary key
 
 ```
-
-create table enviro (
-RGB_blue int(3),
-device_name varchar(6),
-RGB_green int(3),
-heading int(5),
+create table AstroPiQuake (
+device_name varchar(12),
+humidity varchar(20),
 lat varchar(20),
 lng varchar(20),
-lux int(6),
+pitch varchar(20),
 pressure varchar(20),
-RGB_red int(3),
+roll varchar(20),
 temperature varchar(20),
 timestamp datetime,
-acc_x varchar(20),
-acc_y varchar(20),
-acc_z varchar(20));
-
+x varchar(20),
+y varchar(20),
+yaw varchar(20),
+z varchar(20));
 
 mysql> show columns in AstroPiQuake;
 +-------------+-------------+------+-----+---------+-------+
 | Field       | Type        | Null | Key | Default | Extra |
 +-------------+-------------+------+-----+---------+-------+
-| RGB_blue    | int(3)      | YES  |     | NULL    |       |
-| device_name | varchar(6)  | YES  |     | NULL    |       |
-| RGB_green   | int(3)      | YES  |     | NULL    |       |
-| heading     | int(5)      | YES  |     | NULL    |       |
+| device_name | varchar(12) | YES  |     | NULL    |       |
+| humidity    | varchar(20) | YES  |     | NULL    |       |
 | lat         | varchar(20) | YES  |     | NULL    |       |
 | lng         | varchar(20) | YES  |     | NULL    |       |
-| lux         | int(6)      | YES  |     | NULL    |       |
+| pitch       | varchar(20) | YES  |     | NULL    |       |
 | pressure    | varchar(20) | YES  |     | NULL    |       |
-| RGB_red     | int(3)      | YES  |     | NULL    |       |
+| roll        | varchar(20) | YES  |     | NULL    |       |
 | temperature | varchar(20) | YES  |     | NULL    |       |
 | timestamp   | datetime    | YES  |     | NULL    |       |
-| acc_x       | varchar(20) | YES  |     | NULL    |       |
-| acc_y       | varchar(20) | YES  |     | NULL    |       |
-| acc_z       | varchar(20) | YES  |     | NULL    |       |
+| x           | varchar(20) | YES  |     | NULL    |       |
+| y           | varchar(20) | YES  |     | NULL    |       |
+| yaw         | varchar(20) | YES  |     | NULL    |       |
+| z           | varchar(20) | YES  |     | NULL    |       |
 +-------------+-------------+------+-----+---------+-------+
-14 rows in set (0.00 sec)
+13 rows in set (0.00 sec)
 ```
 
 Copy the AstroPiQuake.csv file into the folder with permissions to load data.  You can find this folder by showing variables.  Otherwise, you get an error similar to:  ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
@@ -71,7 +67,7 @@ mysql> mysql> show variables like "secure_file_priv";
 Load the data
 
 ```
-mysql> load data infile '/var/lib/mysql-files/Enviro.csv' into table enviro fields terminated by ',' ignore 1 lines;
+mysql> load data infile '/var/lib/mysql-files/AstroPiQuake.csv' into table AstroPiQuake fields terminated by ',' ignore 1 lines;
 Query OK, 394 rows affected, 394 warnings (0.02 sec)
 Records: 394  Deleted: 0  Skipped: 0  Warnings: 394
 ```
