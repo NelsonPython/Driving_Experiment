@@ -28,7 +28,7 @@ lux int(6),
 pressure varchar(20),
 RGB_red int(3),
 temperature varchar(20),
-timestamp date,
+timestamp datetime,
 acc_x varchar(20),
 acc_y varchar(20),
 acc_z varchar(20));
