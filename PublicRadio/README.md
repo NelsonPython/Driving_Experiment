@@ -69,7 +69,14 @@ To simulate an earthquake run quake.sh.
 
 <h3>Creating charts and graphs</h3>
 
+<a href="gph_AirMac_aq.md">Using Google Charts to monitor air quality</a>
+
+<a href="gph_Astro_Earth.md">Using Google Charts to monitor movement of the Earth</a>
+
 <a href="gph_enviro_temp.md">Using Google Charts to monitor temperature</a>
+
+<a href="gph_temp_compare.md">Using Google Charts to verify temperature</a>
+
 
 
 
