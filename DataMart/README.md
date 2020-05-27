@@ -122,5 +122,5 @@ insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C
 
 <h2>Creating a simple MOBI Data Mart web app</h2>
 
-[Explaining the PHP scripts ](php.md)
+[Programming PHP scripts ](php.md)
 
