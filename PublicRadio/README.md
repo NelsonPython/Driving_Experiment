@@ -42,8 +42,23 @@ INSERT INTO lookup (tag,language,phrase) VALUES ("quake","CHINESE","di zhen");
 ```
 
 <h3>Running Public Radio</h3>
-Go to your home directory and make a folder called /PublicRadio.  Copy roadTripTalks.py, send_2_yellow_wheels.py, send_2_AstroPiQuake.py, and quake.sh
+Go to your home directory and make a folder called /PublicRadio.  Copy roadTripTalks.py, send_2_yellow_wheels.py, send_2_AstroPiQuake.py, and quake.sh.  Run roadTripTalks.py to start Public Radio.
 
+```
+python3 roadTripTalks.py -l English
+```
+
+Open a new terminal and use this command to see all the messages that devices can send to the LEDs on AstroPiQuake
+
+```
+python3 send_2_AstroPiQuake.py -h
+```
+
+To simulate an earthquake run quake.sh.
+
+```
+./quake
+```
 
 <h3>Creating charts and graphs</h3>
 Go to your /PublicRadio folder and copy ??? graphs
