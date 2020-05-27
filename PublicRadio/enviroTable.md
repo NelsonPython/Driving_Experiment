@@ -93,6 +93,10 @@ mysql> mysql> show variables like "secure_file_priv";
 +------------------+-----------------------+
 1 row in set (0.00 sec)
 
+mysql> load data infile '/var/lib/mysql-files/Enviro.csv' into table enviro fields terminated by ',' ignore 1 lines;
+Query OK, 394 rows affected, 394 warnings (0.02 sec)
+Records: 394  Deleted: 0  Skipped: 0  Warnings: 394
+
 
 mysql> show columns in enviro;
 +-------------+-------------+------+-----+---------+----------------+
