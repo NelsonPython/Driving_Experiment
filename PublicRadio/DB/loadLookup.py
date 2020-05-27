@@ -3,8 +3,8 @@ import pandas as pd
 
 db = mysql.connector.connect(
 	host = "localhost",
-	user = "py",
-	password = "admin1234",
+	user = "USERNAME",
+	password = "PASSWORD",
 	database = "translations"
 )
 
