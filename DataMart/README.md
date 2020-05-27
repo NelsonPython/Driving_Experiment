@@ -120,6 +120,28 @@ insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C
 insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','bumblebeeav')
 ```
 
+<h2>Granting permission to use the data</h2>
+
+Setting up a secure web app is beyond the scope of this tutorial.  I created a special user called wwwuser and gave that user permission to 
+
+wwwdata is a user with special permission to access the web app.  In order for wwwdata to use the Roadtrip database, you must give it permission to access the database.  Create a database user called wwwuser.  Use the ip address of the computer running the web app.  If this ip address changes then add another user with the new ip address.
+
+```
+CREATE user 'wwwuser@'192.168.1.x' identified by 'password';
+GRANT SELECT, CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, SHOW VIEW, EVENT to 'wwwuser'@'192.168.1.x';
+```
+
+Check to see that wwwuser is in the list of users
+```
+select host, user from mysql.user;
+```
+Check the grants for wwwuser
+```
+show grants for wwwuser@192.168.1.x
+```
+
+
+
 
 
 <h2>Creating a simple MOBI Data Mart web app</h2>
