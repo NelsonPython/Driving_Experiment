@@ -1,6 +1,6 @@
 <h1>Creating the AstroPiQuake table</h1>
 
-Enviro data can be saved in a database table.  This simple example shows how to load all the data.  In the real-world, data will be curated.  Use a database named, ai_lab_data.  If you have not created this database, then create it.
+AstroPiQuake data can be saved in a database table.  This simple example shows how to load all the data.  In the real-world, data will be curated.  Use a database named, ai_lab_data.  If you have not created this database, then create it.
 
 ```
 CREATE DATABASE ai_lab_data;
@@ -13,7 +13,7 @@ mysql> use ai_lab_data;
 Database changed
 ```
 
-Create the enviro table.  Make sure the columns are arranged in the exact same order of the csv file containing data to be loaded.  Do not add a primary key
+Create the AstroPiQuake table.  Make sure the columns are arranged in the exact same order of the csv file containing data to be loaded.  Do not add a primary key
 
 ```
 
@@ -34,7 +34,7 @@ acc_y varchar(20),
 acc_z varchar(20));
 
 
-mysql> show columns in enviro;
+mysql> show columns in AstroPiQuake;
 +-------------+-------------+------+-----+---------+-------+
 | Field       | Type        | Null | Key | Default | Extra |
 +-------------+-------------+------+-----+---------+-------+
@@ -56,7 +56,7 @@ mysql> show columns in enviro;
 14 rows in set (0.00 sec)
 ```
 
-Copy the Enviro.csv file into the folder with permissions to load data.  You can find this folder by showing variables.  Otherwise, you get an error similar to:  ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+Copy the AstroPiQuake.csv file into the folder with permissions to load data.  You can find this folder by showing variables.  Otherwise, you get an error similar to:  ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
 
 ```
 mysql> mysql> show variables like "secure_file_priv";
