@@ -15,6 +15,8 @@ tag varchar(20),
 language varchar(20),
 phrase varchar(100));
 ```
+Use the loadlookup.py script in the DB folder to begin loading translations
+
 
 <h3>Running Public Radio</h3>
 Go to your home directory and make a folder called /PublicRadio.  Copy roadTripTalks.py, send_2_yellow_wheels.py, send_2_AstroPiQuake.py, and quake.sh
