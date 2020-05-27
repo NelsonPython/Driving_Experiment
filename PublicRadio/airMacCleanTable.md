@@ -76,7 +76,7 @@ mysql> show columns in AirMacClean;
 
 ```
 
-View the first 5 records in the enviro table
+View the first 5 records in the Air MacClean table
 
 ```
 mysql> select * from AirMacClean limit 5;
