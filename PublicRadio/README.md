@@ -57,7 +57,7 @@ python3 send_2_AstroPiQuake.py -h
 To simulate an earthquake run quake.sh.
 
 ```
-./quake
+./quake.sh
 ```
 
 <h3>Creating charts and graphs</h3>
