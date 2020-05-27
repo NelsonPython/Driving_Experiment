@@ -61,5 +61,6 @@ To simulate an earthquake run quake.sh.
 ```
 
 <h3>Creating charts and graphs</h3>
+
 Go to your /PublicRadio folder and copy ??? graphs
 
