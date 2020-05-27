@@ -61,9 +61,9 @@ To simulate an earthquake run quake.sh.
 
 <h3>Storing data in MySQL database</h3>
 
-<a href="enviroTable.md">Creating the AirMacClean table</a>
+<a href="airMacCleanTable.md">Creating the AirMacClean table</a>
 
-<a href="enviroTable.md">Creating the AstroPiQuake table</a>
+<a href="AstroPiQuakeTable.md">Creating the AstroPiQuake table</a>
 
 <a href="enviroTable.md">Creating the enviro table</a>
 
