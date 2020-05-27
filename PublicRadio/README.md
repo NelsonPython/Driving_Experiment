@@ -61,9 +61,12 @@ To simulate an earthquake run quake.sh.
 
 <h3>Storing data in MySQL database</h3>
 
+<a href="enviroTable.md">Creating the AirMacClean table</a>
+
+<a href="enviroTable.md">Creating the AstroPiQuake table</a>
+
 <a href="enviroTable.md">Creating the enviro table</a>
 
 <h3>Creating charts and graphs</h3>
 
-Go to your /PublicRadio folder and copy ??? graphs
 
