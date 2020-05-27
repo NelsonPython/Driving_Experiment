@@ -16,22 +16,22 @@ Database changed
 Create the enviro table.  Make sure the columns are arranged in the exact same order of the csv file containing data to be loaded.  Do not add a primary key
 
 ```
-mysql> create table enviro (
-    -> RGB_blue int(3),
-    -> device_name varchar(6),
-    -> RGB_green int(3),
-    -> heading int(5),
-    -> lat varchar(20),
-    -> lng varchar(20),
-    -> lux int(6),
-    -> pressure varchar(20),
-    -> RGB_red int(3),
-    -> temperature varchar(20),
-    -> timestamp date,
-    -> acc_x varchar(20),
-    -> acc_y varchar(20),
-    -> acc_z varchar(20));
-Query OK, 0 rows affected (0.02 sec)
+
+create table enviro (
+RGB_blue int(3),
+device_name varchar(6),
+RGB_green int(3),
+heading int(5),
+lat varchar(20),
+lng varchar(20),
+lux int(6),
+pressure varchar(20),
+RGB_red int(3),
+temperature varchar(20),
+timestamp date,
+acc_x varchar(20),
+acc_y varchar(20),
+acc_z varchar(20));
 
 
 mysql> show columns in enviro;
