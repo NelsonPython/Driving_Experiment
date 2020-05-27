@@ -1,7 +1,6 @@
 <h1>Using Google Charts to monitor temperature</h1>
 
-Use Google Charts to show temperature data from Enviro
-
+<img src="images/enviroTemp.png">
 
 ```
 <!DOCTYPE html>
