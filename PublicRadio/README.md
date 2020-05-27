@@ -15,7 +15,7 @@ tag varchar(20),
 language varchar(20),
 phrase varchar(100));
 ```
-Use the loadlookup.py script in the DB folder to begin loading translations
+Use the loadLookup.py script in the DB folder to begin loading translations
 
 
 <h3>Running Public Radio</h3>
