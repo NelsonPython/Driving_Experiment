@@ -15,8 +15,7 @@ tag varchar(20),
 language varchar(20),
 phrase varchar(100));
 ```
-Use the loadLookup.py script in the DB folder to begin loading translations.  Insert translations using these commands.  Make sure each tag has a translation.  Use any language you prefer.
-
+Use the loadLookup.py script in the DB folder to begin loading translations.  Insert translations using these commands.  Make sure each tag has a translation.  Phrases in English will be spoken with an American accent.  Phrases in Spanish will be spoken with a Spanish accent.  Phrases in Chinese will be spoken with a Chinese accent; however, the spelling of some Pinyin has been changed to make it easier to understand.  This accent could be improved.
 ```
 INSERT INTO lookup (tag,language,phrase) VALUES ("yellow_drive","ENGLISH","I am driving");
 INSERT INTO lookup (tag,language,phrase) VALUES ("yellow_lost","ENGLISH","I got lost");                                   
