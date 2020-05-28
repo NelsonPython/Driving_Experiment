@@ -1,5 +1,7 @@
 <h1>Configuring Enviro</h1>
 
+<b>Enviro rides onboard Bumblebee AV sensing the temperature</b>
+
 If you have not built your own Enviro, follow these [instructions](https://github.com/NelsonPython/Enviro).  Then, copy sensorEsocket.py to your home folder.
 
 ```
