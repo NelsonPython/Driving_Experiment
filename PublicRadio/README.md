@@ -65,7 +65,7 @@ To simulate an earthquake run quake.sh.
 
 <a href="AstroPiQuakeTable.md">Creating the AstroPiQuake table</a>
 
-<a href="enviroTable.md">Creating the enviro table</a>
+<a href="enviroTable.md">Creating the Enviro table</a>
 
 <h3>Creating charts and graphs</h3>
 
