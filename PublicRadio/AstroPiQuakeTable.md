@@ -1,6 +1,10 @@
 <h1>Creating the AstroPiQuake table</h1>
 
-AstroPiQuake data can be saved in a database table.  This simple example shows how to load all the data.  In the real-world, data will be curated.  Use a database named, ai_lab_data.  If you have not created this database, then create it.
+<b>AstroPiQuake data can be saved in a database table</b>
+
+For teaching purposes, this simple example shows how to load data from a csv file. In the real-world, data will be curated. You will only load the data you need. Data will load when sensor readings are taken.
+
+Use a database named, ai_lab_data.  If you have not created this database, then create it.
 
 ```
 CREATE DATABASE ai_lab_data;
