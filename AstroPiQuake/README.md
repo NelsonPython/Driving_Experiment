@@ -1,5 +1,9 @@
 <h1>Configuring AstroPiQuake to Drive I-5</h1>
 
+
+
+<b>AstroPiQuake rides onboard Bumblebee AV broadcasting messages and gathering environment data</b>
+
 If you have not built your own AstroPiQuake, follow these [instructions](https://github.com/NelsonPython/AstroPiQuake).  Set up the Drive I-5 experiment by making a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
 
 ```
