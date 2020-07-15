@@ -1,8 +1,8 @@
 # Drive I-5
 
-<b>This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab)</b>
+This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  You can build your own AI Lab, by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.i18nelson.com/contactMe.php">schedule time in the AI Lab</a>.  
 
-To build your own AI Lab, follow these [instructions](https://github.com/NelsonPython/AI_Lab).  To conduct Drive I-5 experiments, click on these links to configure each device:</h2>
+First, follow these instructions to configure each device:</h2>
 
 [AstroPiQuake](AstroPiQuake/README.md)
 
