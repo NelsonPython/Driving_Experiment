@@ -43,19 +43,19 @@ In this example, the ip address is:  192.168.1.8
        valid_lft forever preferred_lft forever
 ```
 
-3. In order to control the devices via SSH, you can find their current ip addresses based on their MAC address by running this script:
+3. In order to control the devices via SSH, you can find their current ip addresses using Nmap and their MAC address.  Here's a sample script:
 
 ```
 python3 nmap2mac.py
 ```
 
-4. Use PuTTY to connect to AstroPiQuake.  Run the emoji listener so devices can send emojis to the LED panel
+4. Connect remotely to AstroPiQuake.  Run the emoji listener so devices can send emojis to the LED panel
 
 ```
 python3 emoji.py
 ```
 
-5. Use PuTTY to connect to BumbleBee AV.  Run the listener so the AV can respond to messages such as an earthquake alert
+5. Connect remotely to BumbleBee AV.  Run the listener so the AV can respond to messages such as an earthquake alert
 
 ```
 python3 listener.py
@@ -64,7 +64,7 @@ python3 listener.py
 6. Go to the MOBI Data Mart website, click on Roadtrip, and choose your route
 
 
-7. Use PuTTY to open another session with Bumblebee AV.  Drive the experiment
+7. Open another session with Bumblebee AV.  Drive the experiment
 
 ```
 python3 socketSports.py -ip 192.168.1.x
