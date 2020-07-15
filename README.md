@@ -1,6 +1,6 @@
 # Drive I-5
 
-This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  You can build your own AI Lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.i18nelson.com/contactMe.php">schedule time in the AI Lab</a>.  
+This is the repository for the [Drive I-5 tutorial](http://i18nelson.com/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  You can build your own lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.i18nelson.com/contactMe.php">schedule time in the AI Lab</a>.  
 
 First, follow these instructions to configure each device:</h2>
 
