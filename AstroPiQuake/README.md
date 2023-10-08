@@ -2,9 +2,9 @@
 
 
 
-<b>AstroPiQuake rides onboard Bumblebee AV broadcasting messages and gathering environment data</b>
+<b>AstroPiQuake rides onboard Bumblebee AV.  It gathers environment data and broadcasts messages such as earthquake alerts.</b>  If you have not built your own AstroPiQuake, follow these [instructions](https://github.com/NelsonPython/AstroPiQuake).  
 
-If you have not built your own AstroPiQuake, follow these [instructions](https://github.com/NelsonPython/AstroPiQuake).  Set up the Drive I-5 experiment by making a folder in your home directory called /quake.  Copy sensorTosocket.py and emoji.py into the quake folder.  Run each script is a separate PuTTY session.
+Set up the Drive I-5 experiment by making a folder in the AstroPiQuake home directory called /quake.  Copy sensorTosocket.py and emoji.py into the /quake folder.  Run each script in a separate PuTTY session.
 
 ```
 python3 sensorTosocket.py -ip 192.168.1.x
@@ -14,7 +14,7 @@ python3 sensorTosocket.py -ip 192.168.1.x
 
 
 <h2>sensorTosocket.py</h2>
-This script gets sensor readings and sends them to the Public Radio announcer.  It also draws emojis in different colors depending on the temperature and humidity readings.
+This script gets sensor readings and sends them to the Public Radio data mart.  This script also draws the emojis on the LED panel.  The smiley emoji turns different colors depending on the temperature and humidity readings.  In case of emergency, a red and white cross appears.  You can also create your own emoji and send it to AstroPiQuake.
 
 ```
 #!/usr/bin/python
@@ -23,7 +23,7 @@ This script gets sensor readings and sends them to the Public Radio announcer.  
 Purpose: send sensor data to Public Radio
 
 Notes:
-- this script assumes there is no DNS server so devices connect directly to the ip address of the website
+- this script assumes there is no DNS server, so devices connect directly to the ip address of the website
 - this script communicates through raw sockets
 '''
 
