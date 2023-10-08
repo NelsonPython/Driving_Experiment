@@ -1,6 +1,6 @@
 <h1>MOBI Data Mart</h1>
 
-<b>MOBI Data Mart is a simple web app the shows data from the Drive I-5 experiment.</b>  You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.  Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">tutorial</a> to install Nginx, MySQL, and PHP on Ubuntu or Raspbian
+<b>MOBI Data Mart is a simple web app the shows data from the Drive I-5 experiment.</b>  You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.  Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">tutorial</a> to install Nginx, MySQL, and PHP on Ubuntu 18.04.
 
 <h2>Creating the Roadtrip database</h2>
 
