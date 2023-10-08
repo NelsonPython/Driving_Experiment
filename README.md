@@ -8,7 +8,7 @@ Get started by configuring each device in the [STEM Lab](https://github.com/Nels
 
 [Air MacClean](AirMacClean/README.md)
 
-[Bumblebee AV](Bumblebee_Rover/README.md)
+[Bumblebee Rover](Bumblebee_Rover/README.md)
 
 [Public Data Cloud](Public_Data_Cloud/README.md)
 
