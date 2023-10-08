@@ -1,14 +1,14 @@
 <h1>Configuring Enviro</h1>
 
-<b>Enviro rides onboard Bumblebee AV sensing the temperature</b>
+<b>Enviro rides onboard Bumblebee AV.  It senses the temperature and colors.</b>  If you have not built your own Enviro, follow these [instructions](https://github.com/NelsonPython/Enviro).  
 
-If you have not built your own Enviro, follow these [instructions](https://github.com/NelsonPython/Enviro).  Then, copy sensorEsocket.py to your home folder.
+Copy sensorEsocket.py to your home folder.
 
 ```
 python3 sensorEsocket -ip 192.168.1.x
 ```
 
--ip must be the ip address of the VirtualBox running Public Radio
+-ip must be the ip address of Public Radio
 
 <h2>sensorEsocket.py</h2>
 
@@ -68,6 +68,7 @@ try:
         enviro["pressure"] = weather.pressure()
         enviro["timestamp"] = datetime.datetime.now()
 
+        # the longitude and latitude are set for Southern California.  You can change them to your location.
         enviro["lng"] = '-118.323411'
         enviro["lat"] = '33.893916'
         enviro["device_name"] = "Enviro"
