@@ -14,6 +14,8 @@ Get started by configuring each device in the [STEM Lab](https://github.com/Nels
 
 [Data Mart](DataMart/README.md)
 
+Install <a href="https://nmap.org/download.html">nmap</a>.
+
 After your devices are configured, follow these steps to conduct experiments:
 
 1. Power on all your devices
