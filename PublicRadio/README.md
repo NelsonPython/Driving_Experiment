@@ -1,8 +1,8 @@
-<h1>Public Radio</h1>
+<h1>Public Data Cloud</h1>
 
-<b>Public Radio broadcasts messages in three languages:  English, Spanish, and Chinese</b>  
+<b>The Public Data Cloud broadcasts messages in three languages:  English, Spanish, and Chinese</b>  
 
-During a demo, this allows humans to understand conversations between devices.  In the real world, autonomous vehicles may not speak aloud when communicating with each other because sending and receiving messages is faster and more accurate.  Public Radio uses the translations database.  Open MySQL and create the translations database
+During a demo, this allows humans to understand conversations between devices.  In the real world, autonomous vehicles may not speak aloud when communicating with each other because sending and receiving messages is faster and more accurate.  Public Data Cloud uses the translations database.  Open MySQL and create the translations database
 
 ```
 CREATE DATABASE translations;
