@@ -1,6 +1,6 @@
 # Driving Experiment
 
-Get started by configuring each device in the [STEM Lab](https://github.com/NelsonPython/STEM_Lab).  You can build your own lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.NormLTranz.com/contactMe.php">schedule time in the AI Lab</a>.  
+Get started by configuring each device in the [STEM Lab](https://github.com/NelsonPython/STEM_Lab).  You can build your own lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.NormLTranz.com/contactMe.php">schedule time in the STEM Lab</a>.  
 
 [AstroPiQuake](AstroPiQuake/README.md)
 
