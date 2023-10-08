@@ -1,8 +1,10 @@
 <h1>Configuring Air MacClean to Drive I-5</h1>
 
-<b>Air MacClean rides onboard Bumblebee AV sensing the air quality</b>
+<b>Air MacClean rides onboard Bumblebee AV.  It senses air quality and carbon dioxide, CO2.</b>
 
-If you have not built your own Air MacClean, follow these [instructions](https://github.com/NelsonPython/Air_MacClean).  Make a folder in you home directory called /AirQuality and copy airMacClean.py, getIP.py, and textStatus.py.  
+If you have not built your own Air MacClean, follow these [instructions](https://github.com/NelsonPython/Air_MacClean).  
+
+Make a folder in you home directory called /AirQuality and copy airMacClean.py, getIP.py, and textStatus.py.  
 
 
 ```
