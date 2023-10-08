@@ -17,7 +17,7 @@ mysql> use ai_lab_data;
 Database changed
 ```
 
-Create the AstroPiQuake table.  Make sure the columns are arranged in the exact same order of the csv file containing data to be loaded.  Do not add a primary key
+Create the AstroPiQuake table.  Make sure the columns in the csv file and the database are arranged in the exact same order.  Do not add a primary key, yet.
 
 ```
 create table AstroPiQuake (
@@ -56,10 +56,10 @@ mysql> show columns in AstroPiQuake;
 13 rows in set (0.00 sec)
 ```
 
-Copy the AstroPiQuake.csv file into the folder with permissions to load data.  You can find this folder by showing variables.  Otherwise, you get an error similar to:  ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+Copy the AstroPiQuake.csv file into the folder that allows data loads.  You can find this folder by showing variables.  If you do not have permission, you may get an error similar to:  `` ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement ```
 
 ```
-mysql> mysql> show variables like "secure_file_priv";
+mysql> show variables like "secure_file_priv";
 +------------------+-----------------------+
 | Variable_name    | Value                 |
 +------------------+-----------------------+
