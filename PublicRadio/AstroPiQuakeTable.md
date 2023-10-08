@@ -2,7 +2,7 @@
 
 <b>AstroPiQuake data can be saved in a database table</b>
 
-For teaching purposes, this simple example shows how to load data from a csv file. In the real-world, data will be curated. You will only load the data you need. Data will load when sensor readings are taken.
+To get started, these instructions explain how to load data from a csv file. You can also load data when sensor readings are taken.
 
 Use a database named, ai_lab_data.  If you have not created this database, then create it.
 
