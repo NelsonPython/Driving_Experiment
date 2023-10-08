@@ -120,7 +120,7 @@ insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C
 insert into labDevices (ipaddr,macaddr,device) values ('192.168.1.x','YO:UR:MA:C9:AD:DR','bumblebeeav')
 ```
 
-<h2>Creating a simple MOBI Data Mart web app</h2>
+<h2>Creating a simple web app</h2>
 
 [Programming PHP scripts ](php.md)
 
