@@ -1,14 +1,12 @@
 <h1>MOBI Data Mart</h1>
 
-<b>MOBI Data Mart is a simple web app with one-stop shopping for data from the Drive I-5 experiment</b>
-    
-You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.  Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">tutorial</a> to install Nginx, MySQL, and PHP on Ubuntu 18.04
+<b>MOBI Data Mart is a simple web app for data from the Drive I-5 experiment.</b>  You may replace it with any popular data marketplace that sends messages in json, txt, or csv format.  Follow this <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04">tutorial</a> to install Nginx, MySQL, and PHP on Ubuntu or Raspbian
 
 <h2>Creating the Roadtrip database</h2>
 
 Create your roadtrip database with four tables:
 
-- KellyBlueBook - contains vehicle data
+- BlueBook - contains vehicle data
 
 - Station - contains EV charging station data
 
@@ -22,10 +20,10 @@ Open MySQL and create the roadtrip database
 CREATE DATABASE roadtrip;
 ```
 
-Create the KellyBlueBook table
+Create the BlueBook table
 
 ```
-CREATE TABLE KellyBlueBook (
+CREATE TABLE BlueBook (
 v_ID int NOT NULL PRIMARY KEY AUTO_INCREMENT,
 vehicle varchar(40),
 vehicle_range in(11),
@@ -36,7 +34,7 @@ charge_type varchar(10),
 vehicle_website varchar(200));
 ```
 
-Use the [load_KellyBlueBook.py](DB/load_KellyBlueBook.py) script to insert data
+Use the [load_BlueBook.py](DB/load_BlueBook.py) script to insert data
 
 Create the Station table
 
