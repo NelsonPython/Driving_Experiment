@@ -18,7 +18,7 @@ After your devices are configured, follow these steps to conduct experiments:
 
 1. Power on all your devices
 
-2. If you don't have a static IP address for Public Radio, get the current IP address
+2. If you don't have a static IP address for Public Data Cloud, get the current IP address
 
 ```
 ip addr
@@ -62,10 +62,10 @@ python3 listener.py
 6. Go to the Public Data Cloud website, click on Roadtrip, and choose your route
 
 
-7. Open another session with Bumblebee AV.  Drive the experiment
+7. Open another session with Bumblebee Rover.  Drive the experiment
 
 ```
 python3 socketSports.py -ip 192.168.1.x
 ```
 
-8. To simulate an earthquake, go to Public Radio, open a new terminal, and run ./quake.sh
+8. To simulate an earthquake, go to Public Data Cloud, open a new terminal, and run ./quake.sh
