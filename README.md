@@ -1,6 +1,6 @@
 # Drive I-5
 
-This is the repository for the [Drive I-5 tutorial](http://www.RoboThot.ai/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  You can build your own lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.RoboThot.ai/contactMe.php">schedule time in the AI Lab</a>.  
+This is the repository for the [Drive I-5 tutorial](http://www.RoboThot.ai/Tutorial-DriveI5/EVehicles.htm) that runs in the [AI Lab](https://github.com/NelsonPython/AI_Lab).  You can build your own lab by following these [instructions](https://github.com/NelsonPython/AI_Lab) or you can <a href="http://www.NormLTranz.com/contactMe.php">schedule time in the AI Lab</a>.  
 
 Get started with the Drive I-5 experiment by configuring each device:</h2>
 
